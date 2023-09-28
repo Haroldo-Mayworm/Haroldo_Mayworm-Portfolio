@@ -1,0 +1,52 @@
+.projetos {
+  background-color: var(--cor-branco);
+  color: var(--cor-preto);
+  padding-top: 35px;  
+}
+
+.projetos-container {
+  display: flex;
+  margin: 0 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 5px 0 20px 0;
+}
+
+.projetos-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cor-bege);
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.projetos-item-linguagem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.projeto-bikcraft {
+  background-image: url('../../img/projetos/banners/bikcraft.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projetos-item-linguagem img {
+  background-color: var(--cor-preto);
+  width: 35px;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+.projetos-item-descricao h3 {
+  padding: 15px 0 15px 0;
+}

@@ -1,0 +1,25 @@
+.sobre {
+  background-color: var(--cor-fundo);
+  color: var(--cor-branco);
+  text-align: center;
+  padding-top: 35px;  
+}
+
+.sobre-container {
+  display: flex;
+  margin: 0 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 5px 0 20px 0;
+}
+
+.sobre-texto {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  padding-bottom: 35px;
+}

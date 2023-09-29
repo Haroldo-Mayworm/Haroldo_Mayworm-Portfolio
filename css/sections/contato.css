@@ -1,0 +1,27 @@
+.contato {
+  background-color: var(--cor-branco);
+  color: var(--cor-preto);
+  text-align: center;
+  padding-top: 35px;
+}
+
+.contato h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 5px 0 40px 0;
+}
+
+.icon-lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-bottom: 60px;
+  font-size: 20px;
+}
+
+.icon-img img {
+  width: 50px;
+  margin-bottom: 15px;
+}

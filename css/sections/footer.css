@@ -1,4 +1,8 @@
-footer p {
+.footer p {
   text-align: center;
-  margin: 15px auto; 
+  margin: 1rem auto; 
+}
+
+.footer a {
+  color: var(--cor-laranja);
 }

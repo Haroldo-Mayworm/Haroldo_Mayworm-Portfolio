@@ -1,12 +1,12 @@
 .projetos {
-  background-color: var(--cor-branco);
-  color: var(--cor-preto);
-  padding-top: 35px;  
+  background-color: var(--cor-cinza-4);
+  color: var(--cor-branco);
+  padding: 2.5rem 0 1.5rem 0;
 }
 
 .projetos-container {
   display: flex;
-  margin: 0 25px;
+  margin: 0 1.3rem;
   flex-direction: column;
   align-items: center;
 }
@@ -14,72 +14,73 @@
 .projetos-container h2 {
   font-weight: 700;
   font-size: 32px;
-  margin: 5px 0 20px 0;
+  margin: 0.5rem 0 1.5rem 0;
 }
 
 .projetos-item {
   display: flex;
   flex-direction: column;
-  background-color: var(--cor-bege);
-  padding: 20px;
-  margin-bottom: 25px;
+  background-color: var(--cor-cinza-1);
+  padding: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .projetos-item-linguagem {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: end;
+  padding: 0.2rem;
 }
 
 .projeto-bikcraft {
-  background-image: url('../../img/projetos/banners/bikcraft.jpg');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/bikcraft.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
 }
 
 .projeto-aluraBooks {
-  background-image: url('../../img/projetos/banners/aluraBooks.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/aluraBooks.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
 }
 
 .projeto-madameCesteira {
-  background-image: url('../../img/projetos/banners/madameCesteira.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/madameCesteira.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
 }
 
 .projeto-brafe {
-  background-image: url('../../img/projetos/banners/brafe.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/brafe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
 }
 
 .projeto-wildbeast {
-  background-image: url('../../img/projetos/banners/wildbeast.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/wildbeast.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
 }
 
 .projeto-construcao {
-  background-image: url('../../img/projetos/banners/construcao.png');
-  background-size: cover; 
-  background-repeat: no-repeat; 
+  background-image: url("../../img/projetos/banners/construcao.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 150px;
@@ -93,5 +94,22 @@
 }
 
 .projetos-item-descricao h3 {
-  padding: 15px 0 15px 0;
+  padding: 0.5rem 0 0.1rem 0;
+  position: relative;
+  display: inline-block
+}
+
+.projetos-item-descricao h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  border-radius: 2rem;
+  margin-top: 0.1rem;
+  background-color: rgb(240, 52, 11);
+}
+
+.projetos-item-descricao p {
+  margin-top: 0.8rem;
 }

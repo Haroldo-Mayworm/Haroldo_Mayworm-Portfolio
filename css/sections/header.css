@@ -1,9 +1,10 @@
 header {
-  background-color: var(--cor-bege);
+  border-bottom: 0.1rem solid rgb(240, 52, 11);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-bottom: 1.3rem;
 }
 
 .nav input[type="checkbox"] {
@@ -11,39 +12,36 @@ header {
 }
 
 .nav {
-  color: var(--cor-preto);
+  color: var(--cor-branco);
 }
 
 .menu-esq {
   font-size: 22px;
   font-weight: bold;
-  color: var(--cor-preto);
+  color: var(--cor-branco);
 }
 
 .menu-align {
-  padding: 1.5em 1em;
+  padding: 1.5rem 1rem;
 }
 
 .menuHamburguer {
-  width: 24px;
-  height: 24px;
   background-image: url("../../img/header/menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 1.5rem;
 }
 
 .menu-lista {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 101%;
   left: 0;
   right: 0;
   overflow: hidden;
-  background-color: var(--cor-branco);
-  transform: translateY(-100px) translateX(-50px);
-  transition: transform 400ms ease 0s;
+  background-color: var(--cor-preto);
+  opacity: 0.99;
 }
 
 .container-btn:checked ~ label span {
@@ -52,12 +50,11 @@ header {
 
 .container-btn:checked ~ .menu-lista {
   display: block;
-  padding: 40px 0;
-  transform: translateY(0px) translateX(0px);
+  padding: 1.5rem 0;
 }
-/* Não consigo fazer o transition!!!!!!!!!!!!!!!!! */
+
 .menu-lista_item {
-  padding: 1.5em;
+  padding: 1rem 2rem;
 }
 
 .menu-lista_link {
@@ -67,6 +64,5 @@ header {
 }
 
 .menu-lista_link img {
-  width: 35px;
-  margin-right: 20px;
+  margin-right: 1.2rem;
 }

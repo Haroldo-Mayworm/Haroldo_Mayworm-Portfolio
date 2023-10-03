@@ -6,7 +6,7 @@
 
 .projetos-container {
   display: flex;
-  margin: 0 1.3rem;
+  margin: 0 2rem;
   flex-direction: column;
   align-items: center;
 }
@@ -15,13 +15,14 @@
   font-weight: 700;
   font-size: 32px;
   margin: 0.5rem 0 1.5rem 0;
+  font-family: var(--font-secundaria);
 }
 
 .projetos-item {
   display: flex;
   flex-direction: column;
   background-color: var(--cor-cinza-1);
-  padding: 1rem;
+  padding: 0.7rem;
   margin-bottom: 1.2rem;
 }
 

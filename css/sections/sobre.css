@@ -1,6 +1,5 @@
 .sobre {
-  background-color: var(--cor-fundo);
-  color: var(--cor-branco);
+  color: var(--white);
   text-align: center;
   padding-top: 35px;  
 }
@@ -12,7 +11,11 @@
   align-items: center;
 }
 
-.sobre-container h2 {
+.titulo-sessao {
+  font-size: 20px;
+}
+
+.subtitulo-sessao {
   font-weight: 700;
   font-size: 32px;
   margin: 0.5rem 0 1.5rem 0;

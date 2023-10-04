@@ -1,6 +1,6 @@
 .projetos {
-  background-color: var(--cor-cinza-4);
-  color: var(--cor-branco);
+  background-color: var(--gray-4);
+  color: var(--white);
   padding: 2.5rem 0 1.5rem 0;
 }
 
@@ -11,7 +11,11 @@
   align-items: center;
 }
 
-.projetos-container h2 {
+.titulo-sessao {
+  font-size: 20px;
+}
+
+.subtitulo-sessao {
   font-weight: 700;
   font-size: 32px;
   margin: 0.5rem 0 1.5rem 0;
@@ -21,7 +25,7 @@
 .projetos-item {
   display: flex;
   flex-direction: column;
-  background-color: var(--cor-cinza-1);
+  background-color: var(--gray-1);
   padding: 0.7rem;
   margin-bottom: 1.2rem;
 }
@@ -88,7 +92,7 @@
 }
 
 .projetos-item-linguagem img {
-  background-color: var(--cor-preto);
+  background-color: var(--black);
   width: 35px;
   opacity: 0.9;
   margin-left: 5px;

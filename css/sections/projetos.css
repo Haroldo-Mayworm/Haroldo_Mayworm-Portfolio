@@ -11,11 +11,11 @@
   align-items: center;
 }
 
-.titulo-sessao {
+.projetos-titulo-sessao {
   font-size: 20px;
 }
 
-.subtitulo-sessao {
+.projetos-subtitulo-sessao {
   font-weight: 700;
   font-size: 32px;
   margin: 0.5rem 0 1.5rem 0;
@@ -101,7 +101,7 @@
 .projetos-item-descricao h3 {
   padding: 0.5rem 0 0.1rem 0;
   position: relative;
-  display: inline-block
+  display: inline-block;
 }
 
 .projetos-item-descricao h3::after {
@@ -117,4 +117,71 @@
 
 .projetos-item-descricao p {
   margin-top: 0.8rem;
+}
+
+@media screen and (min-width: 620px) {
+  .projetos {
+    padding: 4.5rem 0 3rem 0;
+  }
+
+  .projetos-container {
+    margin: 0 3rem;
+  }
+
+  .projetos-titulo-sessao {
+    font-size: 36px;
+  }
+
+  .projetos-subtitulo-sessao {
+    font-size: 56px;
+    margin-bottom: 3.5rem;
+  }
+
+  .projetos-item {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .projeto-bikcraft {
+    height: 300px;
+  }
+
+  .projeto-aluraBooks {
+    height: 300px;
+  }
+
+  .projeto-madameCesteira {
+    height: 300px;
+  }
+
+  .projeto-brafe {
+    height: 300px;
+  }
+
+  .projeto-wildbeast {
+    height: 300px;
+  }
+
+  .projeto-construcao {
+    height: 300px;
+  }
+
+  .projetos-item-linguagem img {
+    width: 3.8rem;
+    margin-bottom: 2px;
+  }
+
+  .projetos-item-descricao h3 {
+    font-size: 36px;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  .projetos-item-descricao h3::after {
+    height: 0.5rem;
+  }
+
+  .projetos-item-descricao p {
+    font-size: 26px;
+    margin-top: 1rem;
+  }
 }

@@ -58,7 +58,7 @@ header {
 }
 
 .menu-lista_item {
-  padding: 0 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .menu-lista_link {
@@ -85,4 +85,18 @@ header {
 
 .icon-contato {
   background-image: url('../../img/header/nav-contato.png');
+}
+
+@media screen and (min-width: 620px) {
+  header {
+    margin-bottom: 4rem;
+  }
+  
+ .menu-esq h1 {
+    font-size: 32px;
+  }
+  
+  .menu-lista_item {
+    padding: 2.5rem 2rem;
+  }
 }

@@ -14,14 +14,27 @@
   font-family: var(--font-secundaria);
 }
 
-.intro p {
-  font-size: 18px;
-}
-
 .ponto-destaque {
   color: var(--orange);
 }
 
 .intro img {
   border-radius: 50%;
+}
+
+@media screen and (min-width: 620px) {
+  .intro {
+    margin-bottom: 3.5rem;
+  }
+  .intro h2 {
+    text-align: center;
+  }
+
+  .intro h2 {
+    letter-spacing: 1px;
+  }
+
+  .intro img {
+    max-width: 450px;
+  }
 }

@@ -1,7 +1,7 @@
 .sobre {
   color: var(--white);
   text-align: center;
-  padding-top: 35px;  
+  padding-top: 3rem;  
 }
 
 .sobre-container {
@@ -11,11 +11,11 @@
   align-items: center;
 }
 
-.titulo-sessao {
+.sobre-titulo-sessao {
   font-size: 20px;
 }
 
-.subtitulo-sessao {
+.sobre-subtitulo-sessao {
   font-weight: 700;
   font-size: 32px;
   margin: 0.5rem 0 1.5rem 0;
@@ -25,4 +25,29 @@
 .sobre-texto {
   line-height: 2rem;
   padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 620px) {
+  .sobre {
+    padding-top: 4rem;  
+  }
+
+  .sobre-container {
+    margin: 0 2rem;
+  }
+
+  .sobre-titulo-sessao {
+    font-size: 36px;
+  }
+  
+  .sobre-subtitulo-sessao {
+    font-size: 56px;
+    margin-bottom: 2.5rem;
+  }
+
+  .sobre-texto {
+    font-size: 24px;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+  }
 }

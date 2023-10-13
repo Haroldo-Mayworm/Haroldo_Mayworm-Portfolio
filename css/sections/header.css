@@ -1,9 +1,10 @@
 header {
-  background-color: var(--cor-bege);
+  border-bottom: 0.1rem solid rgb(240, 52, 11);
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-bottom: 1.3rem;
 }
 
 .nav input[type="checkbox"] {
@@ -11,39 +12,40 @@ header {
 }
 
 .nav {
-  color: var(--cor-preto);
+  color: var(--white);
 }
 
 .menu-esq {
   font-size: 22px;
   font-weight: bold;
-  color: var(--cor-preto);
+  color: var(--white);
+}
+
+.menu-esq h1 {
+  font-size: 22px;
 }
 
 .menu-align {
-  padding: 1.5em 1em;
+  padding: 1.5rem 1rem;
 }
 
 .menuHamburguer {
-  width: 24px;
-  height: 24px;
   background-image: url("../../img/header/menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 1.5rem;
 }
 
 .menu-lista {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 101%;
   left: 0;
   right: 0;
   overflow: hidden;
-  background-color: var(--cor-branco);
-  transform: translateY(-100px) translateX(-50px);
-  transition: transform 400ms ease 0s;
+  background-color: var(--black);
+  opacity: 0.99;
 }
 
 .container-btn:checked ~ label span {
@@ -52,21 +54,90 @@ header {
 
 .container-btn:checked ~ .menu-lista {
   display: block;
-  padding: 40px 0;
-  transform: translateY(0px) translateX(0px);
+  padding: 1.5rem 0;
 }
-/* Não consigo fazer o transition!!!!!!!!!!!!!!!!! */
+
 .menu-lista_item {
-  padding: 1.5em;
+  padding: 1.5rem 2rem;
 }
 
 .menu-lista_link {
   display: flex;
   font-size: 22px;
   align-items: center;
+  padding: 10px 0;
+  margin-left: 1.5rem;
 }
 
-.menu-lista_link img {
-  width: 35px;
-  margin-right: 20px;
+.menu-icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-left: 2.5rem;
+}
+
+.icon-sobre {
+  background-image: url("../../img/header/nav-sobre.svg");
+}
+
+.icon-projetos {
+  background-image: url("../../img/header/nav-projetos.png");
+}
+
+.icon-contato {
+  background-image: url("../../img/header/nav-contato.png");
+}
+
+@media screen and (min-width: 620px) {
+  header {
+    margin-bottom: 4rem;
+  }
+
+  .menu-esq h1 {
+    font-size: 32px;
+  }
+
+  .menu-lista_item {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 0 2.5rem;
+  }
+  .menuHamburguer {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .menu-lista {
+    display: flex;
+    position: relative;
+    background-color: var(--gray-5);
+    opacity: 1;
+  }
+
+  .menu-lista_item {
+    padding: 0rem 0rem;
+  }
+
+  .menu-lista_link {
+    font-size: 18px;
+    align-items: center;
+    padding: 10px 5px;
+    margin-left: 0rem;
+  }
+
+  .menu-lista_link:hover {
+    color: var(--orange);
+  }
+
+  .icon-sobre,
+  .icon-projetos,
+  .icon-contato {
+    background-image: url();
+  }
 }

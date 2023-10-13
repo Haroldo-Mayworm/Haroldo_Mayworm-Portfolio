@@ -1,16 +1,10 @@
 :root {
-  --cor-branco: #fff;
-  --cor-preto: #1b1b1b;
-  --cor-bege: #F5F0F1;
-  --cor-azulClaro: #28A4DD;
-  --cor-fundo: #304977;
+  --white: #fff;
+  --black: #1b1b1b;
+  --orange: #f0340bc7;
+  --gray-1: #6c757d;
+  --gray-2: #6c757d;
+  --gray-3: #4c4d4d;
+  --gray-4: #343a40;
+  --gray-5: #212529;
 }
-
-
-/* 
-#304977
-#28A4DD
-#B9584F
-#D4BF4C 
-#F5F0F1
-*/

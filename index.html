@@ -13,16 +13,12 @@
   <meta name="googlebot" content="index, follow">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Croissant+One&display=swap"
-    rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div class="menu-esq menu-align container">
-      <span>Haroldo Mayworm</span>
+      <h1>Haroldo Mayworm</h1>
     </div>
     <nav class="nav container">
       <input type="checkbox" id="menu" class="container-btn">
@@ -30,14 +26,14 @@
         <span class="menuHamburguer menu-align"></span>
       </label>
       <ul class="menu-lista">
-        <li class="menu-lista_item">
-          <a class="menu-lista_link" href="#"><img src="img/header/nav-sobre.png" alt="">Sobre</a>
+        <li class="menu-lista_item menu-icon icon-sobre">
+          <a class="menu-lista_link" href="#sobre">Sobre</a>
         </li>
-        <li class="menu-lista_item">
-          <a class="menu-lista_link" href="#"><img src="img/header/nav-projetos.png" alt="">Projetos</a>
+        <li class="menu-lista_item menu-icon icon-projetos">
+          <a class="menu-lista_link" href="#projetos">Projetos</a>
         </li>
-        <li class="menu-lista_item">
-          <a class="menu-lista_link" href="#"><img src="img/header/contato.png" alt="">Contato</a>
+        <li class="menu-lista_item menu-icon icon-contato">
+          <a class="menu-lista_link" href="#contato">Contato</a>
         </li>
       </ul>
     </nav>
@@ -45,18 +41,17 @@
 
   <section class="intro">
     <div class="intro-container">
-      <h2>Aprendendo a escrever <br> algumas coisas</h2>
-      <p>mesmo errando, acertando</p>
+      <h2>Transformando ideias em experiências<span class="ponto-destaque">.</span></h2>
     </div>
-    <div class="intro-container">
-      <img src="img/FotoPerfil-SF.png" alt="Foto-HaroldoMayworm">
+    <div class="intro-container img">
+      <img src="img/FotoPerfil-fundoLaranja.jpg" alt="Foto-HaroldoMayworm">
     </div>
   </section>
 
-  <section class="projetos">
+  <section id="projetos" class="projetos">
     <div class="projetos-container">
-      <p>Projetos</p>
-      <h2>Front-End</h2>
+      <h2 class="projetos-titulo-sessao">Projetos</h2>
+      <h3 class="projetos-subtitulo-sessao">Front-End</h3>
       <div class="projetos-lista">
         <ul>
           <li class="projetos-item">
@@ -129,19 +124,21 @@
     </div>
   </section>
 
-  <section class="sobre">
+  <section id="sobre" class="sobre">
     <div class="sobre-container">
-      <p>Um pouco</p>
-      <h2>Sobre mim</h2>
+      <h2 class="sobre-titulo-sessao">Um pouco</h2>
+      <h3 class="sobre-subtitulo-sessao">Sobre mim</h3>
       <p class="sobre-texto">
-        Olá, eu sou o Haroldo Mayworm, desenvolvedor Front-end e apaixonado conhecimento e novas tecnologias. Possui uma
-        experiência sutil em Metodologias Ágeis. Cursando Engenharia de Software.
+        Olá, sou Haroldo Mayworm, um entusiasta do desenvolvimento apaixonado por novas tecnologias e determinado a
+        deixar minha marca no mundo digital. Quando não estou codificando, você pode me encontrar mergulhando em jogos
+        online ou explorando mundos fascinantes nas páginas de um bom livro. Estou ansioso para compartilhar meu
+        trabalho e colaborar em projetos incríveis.
       </p>
     </div>
   </section>
 
-  <section class="contato">
-    <h2>Contato</h2>
+  <section id="contato" class="contato">
+    <h2 class="contato-subtitulo-sessao">Contato</h2>
     <div class="icon-lista">
       <div class="icon">
         <a href="mailto:haroldomayworm@gmail.com" target="_blank">
@@ -151,15 +148,6 @@
         </a>
         <p>E-mail</p>
         <p>Haroldomayworm@gmail.com</p>
-      </div>
-      <div class="icon">
-        <a href="https://api.whatsapp.com/send?phone=5524988183954" target="_blank">
-          <div class="icon-img">
-            <img src="img/contato/telefone.png" alt="telefone">
-          </div>
-        </a>
-        <p>Telefone</p>
-        <p>(24) 98818-3954</p>
       </div>
       <div class="icon">
         <a href="https://www.linkedin.com/in/haroldomayworm/" target="_blank">
@@ -182,11 +170,10 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer">
-    <p>Copyright © 2023 <a href="#" alt="Haroldo Mayworm">Haroldo Mayworm</a>. Todos os direitos reservados.</p>
-  </div>
+  <footer class="footer">
+    <p>Copyright © 2023 <a href="#" alt="Haroldo Mayworm">Haroldo Mayworm</a></p><p>Todos os direitos reservados.</p>
   </footer>
+
 </body>
 
 </html>

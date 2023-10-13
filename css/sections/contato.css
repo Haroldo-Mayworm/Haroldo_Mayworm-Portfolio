@@ -1,14 +1,14 @@
 .contato {
-  background-color: var(--cor-branco);
-  color: var(--cor-preto);
+  background-color: var(--gray-4);
   text-align: center;
-  padding-top: 35px;
+  padding-top: 2rem;
 }
 
-.contato h2 {
+.contato-subtitulo-sessao {
   font-weight: 700;
   font-size: 32px;
-  margin: 5px 0 40px 0;
+  margin: 0.5rem 0 1.5rem 0;
+  font-family: var(--font-secundaria);
 }
 
 .icon-lista {
@@ -17,11 +17,55 @@
 }
 
 .icon {
-  margin-bottom: 60px;
+  margin-bottom: 2.5rem;
   font-size: 20px;
 }
 
 .icon-img img {
-  width: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 0.8rem;
+}
+
+@media screen and (min-width: 620px) {
+  .contato {
+    padding-top: 3.5rem;
+  }
+
+  .contato-subtitulo-sessao {
+    font-size: 56px;
+    margin-bottom: 3rem;
+  }
+
+  .icon {
+    margin-bottom: 4rem;
+    font-size: 30px;
+  }
+  
+  .icon-img img {
+    width: 65px;
+    margin-bottom: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contato {
+    padding-top: 3rem;
+  }
+  
+  .projetos-subtitulo-sessao {
+    font-size: 52px;
+  }
+  
+  .icon-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .icon-img img {
+    width: 65px;
+    margin-bottom: 0.8rem;
+  }
 }

@@ -76,27 +76,68 @@ header {
 }
 
 .icon-sobre {
-  background-image: url('../../img/header/nav-sobre.svg');
+  background-image: url("../../img/header/nav-sobre.svg");
 }
 
 .icon-projetos {
-  background-image: url('../../img/header/nav-projetos.png');
+  background-image: url("../../img/header/nav-projetos.png");
 }
 
 .icon-contato {
-  background-image: url('../../img/header/nav-contato.png');
+  background-image: url("../../img/header/nav-contato.png");
 }
 
 @media screen and (min-width: 620px) {
   header {
     margin-bottom: 4rem;
   }
-  
- .menu-esq h1 {
+
+  .menu-esq h1 {
     font-size: 32px;
   }
-  
+
   .menu-lista_item {
     padding: 2.5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 0 2.5rem;
+  }
+  .menuHamburguer {
+    display: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .menu-lista {
+    display: flex;
+    position: relative;
+    background-color: var(--gray-5);
+    opacity: 1;
+  }
+
+  .menu-lista_item {
+    padding: 0rem 0rem;
+  }
+
+  .menu-lista_link {
+    font-size: 18px;
+    align-items: center;
+    padding: 10px 5px;
+    margin-left: 0rem;
+  }
+
+  .menu-lista_link:hover {
+    color: var(--orange);
+  }
+
+  .icon-sobre,
+  .icon-projetos,
+  .icon-contato {
+    background-image: url();
   }
 }

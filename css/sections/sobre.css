@@ -51,3 +51,25 @@
     padding-bottom: 4rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .sobre-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .sobre-titulo-sessao {
+    font-size: 28px;
+  }
+  
+  .sobre-subtitulo-sessao {
+    font-size: 52px;
+    margin: 0.5rem 0 3rem 0;
+  }
+  
+  .sobre-texto {
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 4rem;
+  }
+}

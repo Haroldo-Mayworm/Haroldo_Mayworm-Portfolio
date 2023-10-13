@@ -45,3 +45,27 @@
     margin-bottom: 0.8rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .contato {
+    padding-top: 3rem;
+  }
+  
+  .projetos-subtitulo-sessao {
+    font-size: 52px;
+  }
+  
+  .icon-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+  }
+  
+  .icon {
+    font-size: 24px;
+  }
+  
+  .icon-img img {
+    width: 65px;
+    margin-bottom: 0.8rem;
+  }
+}

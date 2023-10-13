@@ -74,7 +74,7 @@
 }
 
 .projeto-wildbeast {
-  background-image: url("../../img/projetos/banners/wildbeast.png");
+  background-image: url("../../img/projetos/banners/Wildbeast.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -143,27 +143,27 @@
   }
 
   .projeto-bikcraft {
-    height: 300px;
+    height: 250px;
   }
 
   .projeto-aluraBooks {
-    height: 300px;
+    height: 250px;
   }
 
   .projeto-madameCesteira {
-    height: 300px;
+    height: 250px;
   }
 
   .projeto-brafe {
-    height: 300px;
+    height: 250px;
   }
 
   .projeto-wildbeast {
-    height: 300px;
+    height: 250px;
   }
 
   .projeto-construcao {
-    height: 300px;
+    height: 250px;
   }
 
   .projetos-item-linguagem img {
@@ -182,6 +182,83 @@
 
   .projetos-item-descricao p {
     font-size: 26px;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projetos {
+    padding: 4.5rem 0 4rem 0;
+  }
+
+  .projetos-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .projetos-titulo-sessao {
+    font-size: 28px;
+  }
+  
+  .projetos-subtitulo-sessao {
+    font-size: 52px;
+    margin: 0.5rem 0 3rem 0;
+  }
+
+  .projetos-lista ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .projetos-item {
+    padding: 0.8rem;
+    margin-bottom: 0rem;
+  }
+  
+  .projeto-bikcraft {
+    height: 250px;
+  }
+
+  .projeto-aluraBooks {
+    height: 250px;
+  }
+
+  .projeto-madameCesteira {
+    height: 250px;
+  }
+
+  .projeto-brafe {
+    height: 250px;
+  }
+
+  .projeto-wildbeast {
+    height: 250px;
+  }
+
+  .projeto-construcao {
+    height: 250px;
+  }
+  
+  .projetos-item-linguagem img {
+    width: 40px;
+    opacity: 1;
+  }
+  
+  .projetos-item-descricao h3 {
+    font-size: 32px;
+    padding-top: 1rem;
+  }
+  
+  .projetos-item-descricao h3::after {
+    width: 70%;
+    height: 0.4rem;
+    border-radius: 2rem;
+  }
+  
+  .projetos-item-descricao p {
+    font-size: 22px;
     margin-top: 1rem;
   }
 }

@@ -4,6 +4,12 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: white;
   color: var(--blue-dark);
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+body.loaded {
+  opacity: 1;
 }
 
 .container {
@@ -27,6 +33,10 @@ body {
   padding: 10px 30px;
   border-radius: 30px;
   align-items: center;
+}
+
+.btn-whatsapp a:hover {
+  background: #128c7e;
 }
 
 .whatsapp-button {

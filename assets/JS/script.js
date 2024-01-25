@@ -26,9 +26,9 @@ itemMenu.forEach(function (item) {
 });
 // Final
 
-/* 
-* The function aims to smooth out the scroll when the user clicks on the menu item and return to the top of the page when the "home" item has been clicked.
-*/
+/*
+ * The function aims to smooth out the scroll when the user clicks on the menu item and return to the top of the page when the "home" item has been clicked.
+ */
 document.addEventListener('DOMContentLoaded', function () {
   var menuLinks = document.querySelectorAll('.menu a');
 
@@ -53,4 +53,11 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+});
+
+/*
+ * The function to add animation when loading the website
+ */
+document.addEventListener('DOMContentLoaded', function () {
+  document.body.classList.add('loaded');
 });

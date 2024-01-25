@@ -1,0 +1,133 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 1rem;
+  border-bottom: 1px solid #959cb13f;
+}
+
+.projects-info {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.projects-info span {
+  color: var(--blue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projects-info h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.projects-info p {
+  max-width: 700px;
+  padding-right: 40px;
+  color: var(--gray);
+}
+
+.projects-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: 300px;
+  background-color: var(--gray-1);
+  padding: 0.7rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.projects-languages-item {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 0.2rem;
+}
+
+.projects-bikcraft {
+  background-image: url('../../img/projects/banners/bikcraft.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-aluraBooks {
+  background-image: url('../../img/projects/banners/aluraBooks.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-madameCesteira {
+  background-image: url('../../img/projects/banners/madameCesteira.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-brafe {
+  background-image: url('../../img/projects/banners/brafe.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-wildbeast {
+  background-image: url('../../img/projects/banners/wildbeast.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-construcao {
+  background-image: url('../../img/projects/banners/construcao.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.projects-item-linguagem img {
+  background-color: var(--black);
+  width: 35px;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+.projects-description-item h3 {
+  padding: 0.5rem 0 0.1rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+.projects-description-item h3::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  border-radius: 2rem;
+  margin-top: 0.1rem;
+  background-color: rgb(240, 52, 11);
+}
+
+.projects-description-item p {
+  margin-top: 0.8rem;
+}

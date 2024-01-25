@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  align-items: center;
+  padding: 7rem 1rem;
+  border-bottom: 1px solid #959cb13f;
+}
+
+.about article {
+  padding: 0 1rem;
+}
+
+.about-info span {
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-info h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 600px;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-info p {
+  max-width: 1600px;
+  padding-right: 40px;
+  color: var(--gray);
+}
+
+.about-connect h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-connect p {
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 1.5rem;
+}
+
+.about-connect img {
+  width: 40px;
+  margin-right: 15px;
+}

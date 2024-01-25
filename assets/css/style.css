@@ -1,12 +1,12 @@
-@import url('css/global/reset.css');
+@import url('../css/global/reset.css');
 
-@import url('css/global/cores.css');
-@import url('css/global/tipografia.css');
-@import url('css/global/global.css');
+@import url('../css/global/colors.css');
+@import url('../css/global/global.css');
 
-@import url('css/sections/header.css');
-@import url('css/sections/intro.css');
-@import url('css/sections/projetos.css');
-@import url('css/sections/sobre.css');
-@import url('css/sections/contato.css');
-@import url('css/sections/footer.css');
+@import url('../css/sections/header.css');
+@import url('../css/sections/home.css');
+@import url('../css/sections/about.css');
+@import url('../css/sections/services.css');
+@import url('../css/sections/projects.css');
+@import url('../css/sections/contact.css');
+@import url('../css/sections/footer.css');

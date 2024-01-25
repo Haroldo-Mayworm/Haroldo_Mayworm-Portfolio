@@ -1,0 +1,264 @@
+.projetos {
+  background-color: var(--gray-4);
+  color: var(--white);
+  padding: 2.5rem 0 1.5rem 0;
+}
+
+.projetos-container {
+  display: flex;
+  margin: 0 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projetos-titulo-sessao {
+  font-size: 20px;
+}
+
+.projetos-subtitulo-sessao {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0.5rem 0 1.5rem 0;
+  font-family: var(--font-secundaria);
+}
+
+.projetos-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-1);
+  padding: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.projetos-item-linguagem {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 0.2rem;
+}
+
+.projeto-bikcraft {
+  background-image: url("../../img/projetos/banners/bikcraft.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projeto-aluraBooks {
+  background-image: url("../../img/projetos/banners/aluraBooks.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projeto-madameCesteira {
+  background-image: url("../../img/projetos/banners/madameCesteira.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projeto-brafe {
+  background-image: url("../../img/projetos/banners/brafe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projeto-wildbeast {
+  background-image: url("../../img/projetos/banners/Wildbeast.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projeto-construcao {
+  background-image: url("../../img/projetos/banners/construcao.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.projetos-item-linguagem img {
+  background-color: var(--black);
+  width: 35px;
+  opacity: 0.9;
+  margin-left: 5px;
+}
+
+.projetos-item-descricao h3 {
+  padding: 0.5rem 0 0.1rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+.projetos-item-descricao h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  border-radius: 2rem;
+  margin-top: 0.1rem;
+  background-color: rgb(240, 52, 11);
+}
+
+.projetos-item-descricao p {
+  margin-top: 0.8rem;
+}
+
+@media screen and (min-width: 620px) {
+  .projetos {
+    padding: 4.5rem 0 3rem 0;
+  }
+
+  .projetos-container {
+    margin: 0 3rem;
+  }
+
+  .projetos-titulo-sessao {
+    font-size: 36px;
+  }
+
+  .projetos-subtitulo-sessao {
+    font-size: 56px;
+    margin-bottom: 3.5rem;
+  }
+
+  .projetos-item {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .projeto-bikcraft {
+    height: 250px;
+  }
+
+  .projeto-aluraBooks {
+    height: 250px;
+  }
+
+  .projeto-madameCesteira {
+    height: 250px;
+  }
+
+  .projeto-brafe {
+    height: 250px;
+  }
+
+  .projeto-wildbeast {
+    height: 250px;
+  }
+
+  .projeto-construcao {
+    height: 250px;
+  }
+
+  .projetos-item-linguagem img {
+    width: 3.8rem;
+    margin-bottom: 2px;
+  }
+
+  .projetos-item-descricao h3 {
+    font-size: 36px;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  .projetos-item-descricao h3::after {
+    height: 0.5rem;
+  }
+
+  .projetos-item-descricao p {
+    font-size: 26px;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projetos {
+    padding: 4.5rem 0 4rem 0;
+  }
+
+  .projetos-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .projetos-titulo-sessao {
+    font-size: 28px;
+  }
+  
+  .projetos-subtitulo-sessao {
+    font-size: 52px;
+    margin: 0.5rem 0 3rem 0;
+  }
+
+  .projetos-lista ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .projetos-item {
+    padding: 0.8rem;
+    margin-bottom: 0rem;
+  }
+  
+  .projeto-bikcraft {
+    height: 250px;
+  }
+
+  .projeto-aluraBooks {
+    height: 250px;
+  }
+
+  .projeto-madameCesteira {
+    height: 250px;
+  }
+
+  .projeto-brafe {
+    height: 250px;
+  }
+
+  .projeto-wildbeast {
+    height: 250px;
+  }
+
+  .projeto-construcao {
+    height: 250px;
+  }
+  
+  .projetos-item-linguagem img {
+    width: 40px;
+    opacity: 1;
+  }
+  
+  .projetos-item-descricao h3 {
+    font-size: 32px;
+    padding-top: 1rem;
+  }
+  
+  .projetos-item-descricao h3::after {
+    width: 70%;
+    height: 0.4rem;
+    border-radius: 2rem;
+  }
+  
+  .projetos-item-descricao p {
+    font-size: 22px;
+    margin-top: 1rem;
+  }
+}

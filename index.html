@@ -4,176 +4,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Dev Haroldo Mayworm</title>
+  <title>Haroldo Mayworm - Desenvolvedor</title>
   <meta name="description"
-    content="Estudante de programação com paixão por desenvolvimento, apresentando projetos acadêmicos e experiências. Explore meu portfólio acadêmico e descubra meu trabalho.">
+    content="Estudante de programação com paixão por desenvolvimento, apresentando projetos e experiências. Explore meu portfólio acadêmico e descubra meu trabalho.">
   <meta name="keywords"
     content="Portfólio, Estudante de programação, Desenvolvimento de software, Projetos acadêmicos, Programação, Linguagens de programação, Projetos de programação, Desenvolvedor, Tecnologias de programação">
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <div class="menu-esq menu-align container">
-      <h1>Haroldo Mayworm</h1>
+
+  <header id="header">
+    <div>
+      <img src="assets/img/components/Logo.png" alt="Logo com o nome e as inicias">
     </div>
-    <nav class="nav container">
-      <input type="checkbox" id="menu" class="container-btn">
-      <label for="menu">
-        <span class="menuHamburguer menu-align"></span>
-      </label>
-      <ul class="menu-lista">
-        <li class="menu-lista_item menu-icon icon-sobre">
-          <a class="menu-lista_link" href="#sobre">Sobre</a>
-        </li>
-        <li class="menu-lista_item menu-icon icon-projetos">
-          <a class="menu-lista_link" href="#projetos">Projetos</a>
-        </li>
-        <li class="menu-lista_item menu-icon icon-contato">
-          <a class="menu-lista_link" href="#contato">Contato</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#header">home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#projects">projetos</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section class="intro">
-    <div class="intro-container">
-      <h2>Transformando ideias em experiências<span class="ponto-destaque">.</span></h2>
-    </div>
-    <div class="intro-container img">
-      <img src="img/FotoPerfil-fundoLaranja.jpg" alt="Foto-HaroldoMayworm">
-    </div>
-  </section>
+  <main>
+    <section id="home">
+      <article>
+        <span class="home-intro-highlight">Olá pessoas, eu me chamo</span>
+        <h1>Haroldo Mayworm</h1>
+        <h2>Desenvolvedor Web</h2>
+        <p>Transformando ideias em experiências<span class="home-point-highlight">.</span></p>
+        <div>
+          <a
+            href="https://wa.me/5524988183954?text=Ol%C3%A1%20Haroldo,%0AExplorando%20seu%20site,%20me%20chamou%20a%20aten%C3%A7%C3%A3o%20o%20que%20voc%C3%AA%20oferece.%0APoderia%20retornar%20meu%20contato?%0AAgrade%C3%A7o%20desde%20j%C3%A1!"><img
+              src="assets/img/components/icon-whatsapp.svg" alt="icone do whatsapp" class="btn-whatsapp">Transforme suas
+            ideias!</a>
+        </div>
+      </article>
+      <article>
+        <img src="assets/img/photo-me.jpeg" alt="Foto do Haroldo Mayworm">
+      </article>
+    </section>
 
-  <section id="projetos" class="projetos">
-    <div class="projetos-container">
-      <h2 class="projetos-titulo-sessao">Projetos</h2>
-      <h3 class="projetos-subtitulo-sessao">Front-End</h3>
-      <div class="projetos-lista">
-        <ul>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-bikcraft">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3Icone da linguagem CSS3">
-              <img src="img/projetos/linguagens/js.svg" alt="Icone da linguagem JS">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>Bikcraft</h3>
-              <p>Site de vendas de bicicletas personalizadas</p>
-            </div>
-          </li>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-aluraBooks">
-              <img src="img/projetos/linguagens/mobile.png" alt="Icone first-mobile">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>AluraBooks</h3>
-              <p>Homepage com o método de mobile_first</p>
-            </div>
-          </li>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-madameCesteira">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3">
-              <img src="img/projetos/linguagens/js.svg" alt="Icone da linguagem JS">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>Madame Cesteira</h3>
-              <p>Landing page de vendas de cestas natalinas</p>
-            </div>
-          </li>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-brafe">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>Brafé</h3>
-              <p>Site de vendas de café, projeto focado em melhoria de posicionamento com CSS</p>
-            </div>
-          </li>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-wildbeast">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>Wildbeast</h3>
-              <p>Site sobre animais, com foco em posicionamento Grid</p>
-            </div>
-          </li>
-          <li class="projetos-item">
-            <div class="projetos-item-linguagem projeto-construcao">
-              <img src="img/projetos/linguagens/react.png" alt="Icone da linguagem React">
-              <img src="img/projetos/linguagens/js.svg" alt="Icone da linguagem JS">
-              <img src="img/projetos/linguagens/html5.svg" alt="Icone da linguagem HTML5">
-              <img src="img/projetos/linguagens/css3.svg" alt="Icone da linguagem CSS3">
-            </div>
-            <div class="projetos-item-descricao">
-              <h3>Em construção...</h3>
-              <p>Enquanto aguarda, que tal pegar um café.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="sobre" class="sobre">
-    <div class="sobre-container">
-      <h2 class="sobre-titulo-sessao">Um pouco</h2>
-      <h3 class="sobre-subtitulo-sessao">Sobre mim</h3>
-      <p class="sobre-texto">
-        Olá, sou Haroldo Mayworm, um entusiasta do desenvolvimento apaixonado por novas tecnologias e determinado a
-        deixar minha marca no mundo digital. Quando não estou codificando, você pode me encontrar mergulhando em jogos
-        online ou explorando mundos fascinantes nas páginas de um bom livro. Estou ansioso para compartilhar meu
-        trabalho e colaborar em projetos incríveis.
-      </p>
-    </div>
-  </section>
-
-  <section id="contato" class="contato">
-    <h2 class="contato-subtitulo-sessao">Contato</h2>
-    <div class="icon-lista">
-      <div class="icon">
-        <a href="mailto:haroldomayworm@gmail.com" target="_blank">
-          <div class="icon-img">
-            <img src="img/contato/email.png" alt="e-mail">
+    <section id="about">
+      <article>
+        <div>
+          <span class="about-highlight">Sobre mim</span>
+          <h2>ideias e experiências inesquecíveis</h2>
+          <p>Sou um entusiasta do desenvolvimento apaixonado por novas tecnologias e determinado a
+            deixar minha marca no mundo digital. Quando não estou codificando, você pode me encontrar mergulhando em
+            jogos
+            online ou explorando mundos fascinantes nas páginas de um bom livro.</p>
+        </div>
+        <div>
+          <h2>Conecte-se comigo</h2>
+          <p>Estou presente nas redes sociais para mantermos uma conexão mais próxima. Sinta-se à vontade para seguir e
+            interagir!</p>
+          <div>
+            <a href="https://www.linkedin.com/in/haroldomayworm/"><img src="assets/img/icon-linkedin.svg"
+                alt="icone do Linkedin"></a>
+            <a href="https://github.com/Haroldo-Mayworm"><img src="assets/img/icon-github.svg"
+                alt="Icone do Github"></a>
           </div>
-        </a>
-        <p>E-mail</p>
-        <p>Haroldomayworm@gmail.com</p>
-      </div>
-      <div class="icon">
-        <a href="https://www.linkedin.com/in/haroldomayworm/" target="_blank">
-          <div class="icon-img">
-            <img src="img/contato/linkedin.png" alt="linkedin">
-          </div>
-        </a>
-        <p>Linkedin</p>
-        <p>@Haroldomayworm</p>
-      </div>
-      <div class="icon">
-        <a href="https://github.com/Haroldo-Mayworm" target="_blank">
-          <div class="icon-img">
-            <img src="img/contato/github.png" alt="github">
-          </div>
-        </a>
-        <p>Github</p>
-        <p>@Haroldo-Mayworm</p>
-      </div>
-    </div>
-  </section>
+        </div>
+      </article>
+    </section>
 
-  <footer class="footer">
-    <p>Copyright © 2023 <a href="#" alt="Haroldo Mayworm">Haroldo Mayworm</a></p><p>Todos os direitos reservados.</p>
+    <section id="services">
+      <div>
+        <article>
+          <h3>O que eu ofereço?</h3>
+          <p>Reunindo tecnologia e experiências, proporciono serviços inovadores que visam transformar desafios em
+            soluções.</p>
+        </article>
+        <article>
+          <div>
+            <div><img src="assets/img/icon-construção.png" alt="Icone de um site em construção"></div>
+            <h3>Criação de Sites</h3>
+          </div>
+          <div>
+            <div><img src="assets/img/icon-marketing.png" alt="Icone de um megafone"></div>
+            <h3>Trafego Pago</h3>
+          </div>
+          <div>
+            <div><img src="assets/img/icon-consultoria.png" alt="Icone de uma lupa em um site"></div>
+            <h3>Consultoria Web</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div>
+        <article>
+          <h3>Projetos Recentes</h3>
+          <p>Aqui mergulhamos no universo da tecnologia para apresentar soluções inovadoras e resultados excepcionais
+            onde cada projeto tem uma jornada única!</p>
+        </article>
+        <article>
+          <ul>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-bikcraft">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3Icone da linguagem CSS3">
+                <img src="assets/img/projects/languages/js6.svg" alt="Icone da linguagem JS">
+              </div>
+              <div class="projects-description-iten">
+                <h3>Bikcraft</h3>
+                <p>Site de vendas de bicicletas personalizadas</p>
+              </div>
+            </li>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-aluraBooks">
+                <img src="assets/img/projects/languages/mobile.png" alt="Icone first-mobile">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3">
+              </div>
+              <div class="projects-description-iten">
+                <h3>AluraBooks</h3>
+                <p>Homepage com o método de mobile_first</p>
+              </div>
+            </li>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-madameCesteira">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3">
+                <img src="assets/img/projects/languages/js6.svg" alt="Icone da linguagem JS">
+              </div>
+              <div class="projects-description-iten">
+                <h3>Madame Cesteira</h3>
+                <p>Landing page de vendas de cestas natalinas</p>
+              </div>
+            </li>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-brafe">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+              </div>
+              <div class="projects-description-iten">
+                <h3>Brafé</h3>
+                <p>Site de vendas de café, projeto focado em melhoria de posicionamento com CSS</p>
+              </div>
+            </li>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-wildbeast">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+              </div>
+              <div class="projects-description-iten">
+                <h3>Wildbeast</h3>
+                <p>Site sobre animais, com foco em posicionamento Grid</p>
+              </div>
+            </li>
+            <li class="projects-iten">
+              <div class="projects-languages-iten projects-construcao">
+                <img src="assets/img/projects/languages/react.png" alt="Icone da linguagem React">
+                <img src="assets/img/projects/languages/js6.svg" alt="Icone da linguagem JS">
+                <img src="assets/img/projects/languages/html5.svg" alt="Icone da linguagem HTML5">
+                <img src="assets/img/projects/languages/css3.svg" alt="Icone da linguagem CSS3">
+              </div>
+              <div class="projects-description-iten">
+                <h3>Em construção...</h3>
+                <p>Enquanto aguarda, que tal pegar um café.</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <article>
+        <h3>Tem algum projeto em mente?</h3>
+        <p>Seja qual for o desafio, estou pronto para oferecer soluções, seja criando uma LP ou impulsionando sua ideia.
+        </p>
+        <a
+          href="https://wa.me/5524988183954?text=Ol%C3%A1%20Haroldo,%0AExplorando%20seu%20site,%20me%20chamou%20a%20aten%C3%A7%C3%A3o%20o%20que%20voc%C3%AA%20oferece.%0APoderia%20retornar%20meu%20contato?%0AAgrade%C3%A7o%20desde%20j%C3%A1!"><img
+            src="assets/img/components/icon-whatsapp.svg" alt="icone do whatsapp" class="btn-whatsapp">Transforme suas
+          ideias!</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 <span class="footer-name-highlight">Haroldo Mayworm</span> - Todos os direitos reservados.</p>
   </footer>
-
 </body>
 
 </html>

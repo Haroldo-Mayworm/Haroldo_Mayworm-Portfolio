@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 7rem 1rem;
-  border-bottom: 1px solid #959cb13f;
+  border-bottom: 1px solid #959cb184;
 }
 
 .projects-info {
@@ -26,7 +26,6 @@
 
 .projects-info p {
   max-width: 700px;
-  padding-right: 40px;
   color: var(--gray);
 }
 
@@ -45,7 +44,6 @@
   height: 300px;
   background-color: var(--gray-1);
   padding: 0.7rem;
-  margin-bottom: 1.2rem;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -60,7 +58,7 @@
   background-image: url('../../img/projects/banners/bikcraft.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   height: 150px;
 }
 
@@ -130,4 +128,57 @@
 
 .projects-description-item p {
   margin-top: 0.8rem;
+}
+
+@media screen and (max-width: 750px) {
+  .projects-info span {
+    font-size: 1rem;
+  }
+
+  .projects-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .projects-info p {
+    max-width: 450px;
+  }
+
+  .projects-list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .projects-item {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .projects-info {
+    margin-bottom: 3rem;
+  }
+
+  .projects-info h2 {
+    margin-bottom: 1rem;
+  }
+
+  .projects-list ul {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .projects-item {
+    max-width: 100%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projects {
+    padding: 7rem 2rem;
+  }
+  .projects-info h2 {
+    font-size: 1.9rem;
+  }
 }

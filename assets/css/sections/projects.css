@@ -154,6 +154,12 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .projects {
+    padding: 4rem 1rem;
+  }
+}
+
 @media screen and (max-width: 590px) {
   .projects-info {
     margin-bottom: 3rem;
@@ -170,7 +176,7 @@
 
   .projects-item {
     max-width: 100%;
-    height: 250px;
+    height: 270px;
   }
 }
 

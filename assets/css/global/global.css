@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  color: var(--blue-dark);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn-whatsapp {
+  display: flex;
+}
+
+.btn-whatsapp img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.btn-whatsapp a {
+  display: flex;
+  background: var(--blue);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.btn-whatsapp a:hover {
+  background: #128c7e;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.whatsapp-button a {
+  display: flex;
+  background-color: #25d365d3;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 35px;
+}
+
+.whatsapp-button a:hover {
+  background-color: #128c7e;
+}
+
+@media screen and (max-width: 950px) {
+  .whatsapp-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}

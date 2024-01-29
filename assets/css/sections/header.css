@@ -1,0 +1,124 @@
+#header {
+  width: 100%;
+  transition: background 0.5s ease, backdrop-filter 0.5s ease, box-shadow 0.5s ease;
+}
+
+#header.activeScroll-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.5s ease, backdrop-filter 0.5s ease, box-shadow 0.5s ease;
+}
+
+.header {
+  padding: 0 1rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.menu {
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 50px;
+}
+
+.menu ul li a {
+  font-size: 1.2rem;
+}
+
+.menu ul li a:hover,
+.active {
+  color: var(--blue);
+}
+
+.menu-hbr {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 40px;
+  height: 3px;
+  background-color: var(--blue-dark);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    padding: 0 3rem;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .menu ul.show {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+  .menu ul li a {
+    font-size: 1.7rem;
+  }
+
+  .menu-hbr {
+    display: block;
+  }
+
+  .menu-hbr.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-8px, 4px);
+  }
+
+  .menu-hbr.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-hbr.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -5px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding-top: 1rem;
+  }
+
+  .logo {
+    width: 8rem;
+  }
+
+  .bar {
+    width: 30px;
+  }
+}
